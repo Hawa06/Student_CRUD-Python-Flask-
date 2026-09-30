@@ -8,7 +8,7 @@ students = [
         {"id": 3, "name" : "Ali", "age" : 26} 
 ] 
 
-
+print(students)
 @app.route("/")
 def hello_world():
     return "<p>Hello, World!</p>"
